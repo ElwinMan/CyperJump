@@ -1,0 +1,176 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6452497151218069648
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6452497151218069650}
+  - component: {fileID: 6452497151218069649}
+  - component: {fileID: 6452497150019217495}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: GameManager
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6452497151218069650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6452497151218069648}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -4.467308, y: -3.0473845, z: 26.944641}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6452497151218069649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6452497151218069648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49273c28216bfda47bba2ecf20f55085, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popUpBox: {fileID: 0}
+  animator: {fileID: 0}
+--- !u!114 &6452497150019217495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6452497151218069648}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d952a2fc795c8b048ac3d56fc05e72a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clearConditionScript: {fileID: 0}
+  questions:
+  - question: Moet je websites controleren?
+    answerOne: ja, sommige
+    isOne: 0
+    answerTwo: ja, allemaal
+    isTwo: 1
+    answerThree: nee, alles is veilig
+    isThree: 0
+    answerFour: ja, meestal
+    isFour: 0
+  - question: Wat is de veiligste plek om je wachtwoorden op te slaan?
+    answerOne: internet zelf
+    isOne: 0
+    answerTwo: op de pc
+    isTwo: 0
+    answerThree: op papier
+    isThree: 1
+    answerFour: een tatoeage ervan maken
+    isFour: 0
+  - question: Welke gegevens moet je nooit delen?
+    answerOne: woonplaats
+    isOne: 0
+    answerTwo: exacte adres
+    isTwo: 1
+    answerThree: e-mail
+    isThree: 0
+    answerFour: geboorte datum
+    isFour: 0
+  - question: Hoe noem je mensen die ongevraagd je pc proberen binnen te dringen?
+    answerOne: hackers
+    isOne: 1
+    answerTwo: cool
+    isTwo: 0
+    answerThree: inbrekers
+    isThree: 0
+    answerFour: dieven
+    isFour: 0
+  - question: "Hoe heet het programma dat voorkomt dat er ongewenste programma's
+      ge\xEFnstalleerd wordt?"
+    answerOne: firewall
+    isOne: 1
+    answerTwo: antivirus
+    isTwo: 0
+    answerThree: is er niet
+    isThree: 0
+    answerFour: nordvpn
+    isFour: 0
+  - question: Wat moet je doen bij scam e-mails?
+    answerOne: openen
+    isOne: 0
+    answerTwo: op de link klikken
+    isTwo: 0
+    answerThree: verwijderen
+    isThree: 0
+    answerFour: aan blacklist toevoegen
+    isFour: 1
+  - question: Wanneer is het verstandig je download te scannen?
+    answerOne: altijd
+    isOne: 1
+    answerTwo: alleen grote bestanden
+    isTwo: 0
+    answerThree: alleen programma's
+    isThree: 0
+    answerFour: nooit
+    isFour: 0
+  - question: Hoevaak moet je de software updaten?
+    answerOne: wanneer je eraan denkt
+    isOne: 0
+    answerTwo: een week erna
+    isTwo: 0
+    answerThree: een paar dagen erna
+    isThree: 0
+    answerFour: wanneer ze uitkomen
+    isFour: 1
+  - question: Wat moet je doen wanneer je financieel bent opgelicht?
+    answerOne: Bank bellen
+    isOne: 1
+    answerTwo: op social media zetten
+    isTwo: 0
+    answerThree: huilen
+    isThree: 0
+    answerFour: niks
+    isFour: 0
+  - question: Hoevaak moet je back-ups maken?
+    answerOne: eens per jaar
+    isOne: 0
+    answerTwo: eens per maand
+    isTwo: 1
+    answerThree: eens per kwartaal
+    isThree: 0
+    answerFour: nooit
+    isFour: 0
+  - question: Wat is Phishing?
+    answerOne: vissen
+    isOne: 0
+    answerTwo: nepberichten
+    isTwo: 0
+    answerThree: lokmiddel
+    isThree: 1
+    answerFour: gratis spullen
+    isFour: 0
+  - question: Is hacken ooit toegestaan?
+    answerOne: ja, met toestemming
+    isOne: 1
+    answerTwo: nee
+    isTwo: 0
+    answerThree: ja, altijd
+    isThree: 0
+    answerFour: ja, bij vrienden
+    isFour: 0
+  questionText: {fileID: 0}
+  firstAnswer: {fileID: 0}
+  secondAnswer: {fileID: 0}
+  thirdAnswer: {fileID: 0}
+  fourthAnswer: {fileID: 0}
